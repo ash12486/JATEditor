@@ -1,59 +1,33 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+# JATE - Just Another Text Editor
 
-## Your Task
+## Table of Contents
+- [JATE - Just Another Text Editor](#jate---just-another-text-editor)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Features](#features)
+  - [How it Works](#how-it-works)
+  - [Getting Started](#getting-started)
+  - [License](#license)
 
-Explore the completed J.A.T.E application that has been provided to gain a deeper understanding of how a Progressive Web Application (PWA) is properly configured in a web application.
+## Description
+JATE is a progressive web application that allows users to create and edit plain text documents in a simple and intuitive interface. With offline capabilities and advanced web technologies, JATE provides a fast and reliable user experience.
 
-Your task is to record a video between 90-seconds to 2-minutes in length of you narrating a screen share of the J.A.T.E application while explaining the key components that comprise it's PWA.
+## Features
+- Create and edit plain text documents
+- Offline capabilities using service workers and IndexedDB
+- Push notifications for updates and messages
+- App manifest for easy installation on mobile devices
+- Cross-device compatibility with modern web browsers
 
-## User Story
+## How it Works
+JATE is built with web technologies including HTML, CSS, and JavaScript. The application uses a service worker to provide offline capabilities, allowing users to access and edit their documents even when they are not connected to the internet. JATE also uses IndexedDB to store and retrieve documents, and push notifications to send updates and messages to the user.
 
-```md
-AS A developer
-I WANT to better understand how a PWA is setup
-SO THAT I can explain the purpose in a technical setting
-```
+To use JATE, simply open the application in a modern web browser and start creating and editing plain text documents. The application can be installed on mobile devices using the app manifest, providing easy access and cross-device compatibility.
 
-## Acceptance Criteria
+Here is the application's walkthrough video: https://drive.google.com/file/d/1h6-_m5HfVh_yKaZ82Q1eJWaOxVpLJ7at/view
 
-```md
-GIVEN a completed text editor web application
-WHEN I showcase the application in the video
-THEN I should be able to explain all aspects of a PWA
-WHEN I show the webpack plugins
-THEN I explain how I have a generated HTML file, service worker, and a manifest file
-WHEN I open the text editor
-THEN I show that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I explain how the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I explain how the content in the text editor has been retrieved from our IndexedDB
-WHEN I load my web application
-THEN I should have, and can explain, the registered service worker using workbox
-```
+## Getting Started
+To get started with JATE, simply open the application in a modern web browser. No installation or setup is required. For mobile devices, users can install the application using the app manifest.
 
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> - A repository that has no code
->
-> - A repository that includes a unique name but nothing else
->
-> - A repository that includes only a README file but nothing else
->
-> - A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-### Walkthrough Video
-
-- A walkthrough video that demonstrates the functionality, and your understanding of the Progressive Web Application, and a link to the video should be included in your README file.
-
-## Review
-
-You are required to submit the following for review:
-
-- The URL of the video explanation
-
-- The URL of the J.A.T.E. application deployed to your GitHub repository, with a unique name and a README describing the project
+## License
+JATE is open source software licensed under the MIT License. See the LICENSE.md file for more information.
